@@ -1,0 +1,35 @@
+
+.playerTurn {
+  font-size: 3rem;
+  color:indianred;
+  font-weight: 400;
+  text-align: center;
+  padding: 70px 0;
+
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border: 5px solid darkcyan;
+    border-radius: 5px;
+  }
+  
+  .cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:crimson;
+    font-size: 4rem;
+    font-family: 'Pangolin', cursive;
+    cursor: pointer;
+    color: floralwhite;
+    border: 5px solid darkcyan;
+
+  }
+
+  
